@@ -1,0 +1,10 @@
+c:\users\jeny_\documents\visual studio 2015\Projects\ABD\ABD\bin\Debug\ABD.exe.config
+C:\Users\jeny_\documents\visual studio 2015\Projects\ABD\ABD\bin\Debug\ABD.exe
+C:\Users\jeny_\documents\visual studio 2015\Projects\ABD\ABD\bin\Debug\ABD.pdb
+C:\Users\jeny_\documents\visual studio 2015\Projects\ABD\ABD\obj\Debug\ABD.csprojResolveAssemblyReference.cache
+C:\Users\jeny_\documents\visual studio 2015\Projects\ABD\ABD\obj\Debug\ABD.Ventana1.resources
+C:\Users\jeny_\documents\visual studio 2015\Projects\ABD\ABD\obj\Debug\ABD.Properties.Resources.resources
+C:\Users\jeny_\documents\visual studio 2015\Projects\ABD\ABD\obj\Debug\ABD.csproj.GenerateResource.Cache
+C:\Users\jeny_\documents\visual studio 2015\Projects\ABD\ABD\obj\Debug\ABD.exe
+C:\Users\jeny_\documents\visual studio 2015\Projects\ABD\ABD\obj\Debug\ABD.pdb
+C:\Users\jeny_\documents\visual studio 2015\Projects\ABD\ABD\obj\Debug\ABD.Form2.resources
