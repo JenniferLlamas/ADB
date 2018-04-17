@@ -93,6 +93,26 @@ namespace ABD.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FontAwesome_f00c_0__32 {
+            get {
+                object obj = ResourceManager.GetObject("FontAwesome_f00c(0)_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FontAwesome_f05d_1__128 {
+            get {
+                object obj = ResourceManager.GetObject("FontAwesome_f05d(1)_128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_agregar_base_de_datos_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-agregar-base-de-datos-50", resourceCulture);
