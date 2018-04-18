@@ -15,9 +15,16 @@ namespace ABD
         public Ventana1()
         {
             InitializeComponent();
+
             
         }
-        Form2 ventana = new Form2();
+        public bool crear=false;
+        public bool usar=false;
+        public bool borrar=false;
+
+
+
+        Form2 v2 = new Form2();
         string bd=null;
         private void label4_Click(object sender, EventArgs e)
         {
@@ -26,7 +33,8 @@ namespace ABD
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ventana.Show();
+            v2.Show();
+            crear = true;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -36,12 +44,20 @@ namespace ABD
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ventana.Show();
+            this.Hide();
+            usar = true;
+            v2.Show();
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            ventana.Show();
+            v2.Show();
+        }
+
+        private void Ventana1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

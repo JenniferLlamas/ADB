@@ -20,7 +20,8 @@ namespace ABD
         }
         Regex nombreBDValidacion =  new Regex("^([a-zA-Z]+)([a-zA-Z]|([0-9]))*$");
         public string nombreDB;
-
+        
+        
 
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -31,20 +32,32 @@ namespace ABD
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Ventana1 v1 = new Ventana1();
             nombreDB = nombrebd.Text;
-            
+            if (v1.crear)
+            {
                 Directorios dir = new Directorios();
-            if (nombreBDValidacion.IsMatch(nombreDB))
-            {
-                dir.CrearDir(nombreDB);
-                nombrebd.Text = "";
+                if (nombreBDValidacion.IsMatch(nombreDB))
+                {
+                    dir.CrearDir(nombreDB);
+                    nombrebd.Text = "";
+                }
+                else
+                {
+                    MessageBox.Show("Nombre de Base de Datos Invalido");
+                }
+                v1.crear = false;
             }
-            else
+            
+            if(v1.usar)
             {
-                MessageBox.Show("Nombre de Base de Datos Invalido");
+                Form3 v3 = new Form3();
+                v3.Show();
+
+                v1.usar = false;
             }
-                
-           
+
+            this.Hide();
 
         }
 
@@ -74,31 +87,9 @@ namespace ABD
                 }
 
               
-            }
+            }          
+            
 
-           
-
-            public   void CrearSubDir(string nomdir,string nomsub)
-            {
-                string nomsubdir = @"c:\" + nomdir + "\\" + nomsub;
-                if (!System.IO.File.Exists(nomsubdir))
-                {
-                    using (System.IO.FileStream fs = System.IO.File.Create(nomsubdir))
-                    {
-                        for (byte i = 0; i < 100; i++)
-                        {
-                            fs.WriteByte(i);
-                        }
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("File \"{0}\" already exists.", nomsubdir);
-                    return;
-                }
-
-            }
-         
 
         }
             

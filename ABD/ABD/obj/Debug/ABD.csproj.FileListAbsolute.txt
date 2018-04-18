@@ -18,3 +18,4 @@ C:\Users\jeny_\Documents\GitHub\ADB\ABD\ABD\obj\Debug\ABD.Ventana1.resources
 C:\Users\jeny_\Documents\GitHub\ADB\ABD\ABD\obj\Debug\ABD.Form2.resources
 C:\Users\jeny_\Documents\GitHub\ADB\ABD\ABD\obj\Debug\ABD.Properties.Resources.resources
 C:\Users\jeny_\Documents\GitHub\ADB\ABD\ABD\obj\Debug\ABD.csproj.GenerateResource.Cache
+C:\Users\jeny_\Documents\GitHub\ADB\ABD\ABD\obj\Debug\ABD.Form3.resources

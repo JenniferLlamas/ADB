@@ -54,11 +54,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Kozuka Mincho Pro R", 18F);
+            this.label1.Font = new System.Drawing.Font("Trajan Pro", 18F);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(82, 55);
+            this.label1.Location = new System.Drawing.Point(47, 56);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(314, 32);
+            this.label1.Size = new System.Drawing.Size(386, 30);
             this.label1.TabIndex = 1;
             this.label1.Text = "Nombre de la base de datos";
             // 
@@ -142,7 +142,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox nombrebd;
+        public System.Windows.Forms.TextBox nombrebd;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
